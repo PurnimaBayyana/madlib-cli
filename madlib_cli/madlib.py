@@ -20,5 +20,6 @@ def file_initial_read():
     print(contents)   
         #if  istr.endswith('{'):
             #print(istr)
+    f.close()
            
 file_initial_read()  
